@@ -10,7 +10,7 @@ from io import StringIO
 import glob, nltk, os, re
 from nltk.corpus import stopwords
 from pathlib import Path
-nltk.download('stopwords')
+nltk.download('all')
 
 st.markdown('''
             # Analyzing Shakespeare Texts
